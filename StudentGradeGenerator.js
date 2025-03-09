@@ -1,8 +1,8 @@
-prompt = require('prompt-sync')();
+prompt = require('prompt-sync')(); // This line is needed to take user input
 
 let studentMarks = prompt("Enter the student marks: ");
 studentMarks = parseInt(studentMarks);
-
+// Check the student grade
 if (studentMarks >= 80) {
     console.log("A");
 }
